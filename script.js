@@ -1,12 +1,13 @@
 //your JS code here. If required.
-let s = {
-	name : "Sufiyan",
-	age : 22,
-	city : "Songadh"
+class Student {
+	constructor(name) {
+		this.name=name;
+	}
+
+getkeys(){
+	return Object.keys(this)
+}
 }
 
-function getkeys(obj){
-	return Object.keys(obj)
-}
 
 console.log(getkeys(s))
