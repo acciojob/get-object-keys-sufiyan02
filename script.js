@@ -4,10 +4,10 @@ class Student {
 		this.name=name;
 	}
 
-getkeys(){
-	return Object.keys(this)
-}
+	getkeys(){
+		return Object.keys(this);
+	}
 }
 
-
-console.log(getkeys(s))
+const s =new Student("John")
+console.log(s.getkeys())
